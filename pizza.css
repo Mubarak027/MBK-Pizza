@@ -1,0 +1,88 @@
+h1{
+    color: #14213d;
+     background-color: #fca311;
+     text-align: center;
+     
+}
+h2{
+    text-align: center;
+    color: #14213d;
+
+}
+body{
+    background-color: #fca311; 
+    font-size: medium;
+}
+p{
+    color: #14213d;   
+}
+p.trt{
+    text-align: center;
+    font-size: 20px;
+    color: #14213d;
+
+}
+
+ul{
+    display: inline;
+    text-align: center;
+    
+}
+li{
+    display: inline;
+    padding-right: 50px;
+}
+.pizza{
+    float: right;
+
+}
+div{
+    text-align: center;
+}
+form{
+    float: right;
+    display:block;
+
+}
+.pizza3{
+    float: right;
+}
+.pizza5{
+    float: left;
+}
+h4{
+    text-align: left;
+}
+.app{
+    float: left;
+}
+.dss{
+    float: right;
+}
+h4{
+    font-size: 32px;
+}
+.apt{
+    font-size: 20px;
+    color:#14213d;
+}
+.money{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+img{
+    float: right;
+    border: 3px solid  #14213d;;
+}
+i{
+    text-align: center;
+}
+h6{
+    font-size: large;
+    text-align: center;
+    color: #14213d;
+}
+.pizza10{
+    float: left;
+}
