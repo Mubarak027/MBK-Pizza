@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This Page consist of Information about My Pizza">
+    <title>MBK'S Pizza</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+    <h1>MBK'S Pizza</h1>
+    <br>
+    <h2>Eat,Drink and Relax</h2>
+    <p class="trt">Treat Yourself </p>
+    <ul>
+        <li><a href="pizza.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+    </ul>
+    <hr>
+    <br>
+    <img src="pizza 7.jpg" alt="Man eating pizza" width="1400px" height="500px">
+    <h2>Make a Reservation!</h2>
+    <h6>Select your details and we'll try to get the best seats for you!</h6>
+    <p>We would love to reserve a seat for you as we deem fit to give you the best and a good seat reserved for you and your Loved Ones.</p>
+   <img src="pizza 10.jpg" class="pizza10"  alt="Customers enjoying our pizza" width="700px" height="500" >
+    <form action="get" method="post">
+            
+        <fieldset>
+
+            
+            <legend>Personal Information</legend>
+            <p><label for=" name"> Name*:</label> 
+                <input type="text" name="name" id="name" placeholder="name" autocomplete="on" autofocus required>
+             </p>
+             <p><label for="email">Email*:</label> 
+                <input type="text" name="your email" id="email" placeholder="user@email.com" autocomplete="on" required>
+             </p>
+             
+                <p><label for="phone">Phone:</label> 
+                    <input type="tel" name="phone" id="phone" placeholder="555555555555" pattern="[0-9]{3} [0-9]{3}[0-9]{4}">
+                 </p>
+                 <p><label for="address">Address*:</label> 
+                    <input type="address" name="your address" id="address" placeholder="your address" autocomplete="on" required>
+                 </p>
+                 
+                    <p><label for="party size">Choose a Party Size :</label>
+<select name="party size" id="party size">
+
+    <option value=" a guest">A guest</option>
+    <option value="2 guests">2 guests</option>
+    <option value="3 guests">3 guests</option>
+    <option value="4 guests">4 guests</option>
+    <option value="5 guests">5 guests</option>
+    <option value="6 guests">6 guests</option>
+    <option value="7 guests">7 guests</option>
+    <option value="8 guests">8 guests</option>
+                 </p>
+<br>
+                 <br>
+
+                  <p><label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                 </p>
+                 <p><label for="time">Time</label>
+                    <input type="time" id="time" name="time">
+
+                 </p>
+        <hr>
+        <br>
+        <br>
+            <legend>Send Me A Note</legend>
+                <p><label for="message">Your Message"</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+           </p>
+    </form>
+    </body>
+</html>
